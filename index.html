@@ -1,16 +1,17 @@
-﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+﻿<!-- contributed by Tonoy https://github.com/Tanvir000Tonoy -->
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-		<title> Putul’s birthday </title>	    
-        <link type="text/css" rel="stylesheet" href="./file/default.css">
-		<script type="text/javascript" src="./file/jquery.min.js"></script>
-		<script type="text/javascript" src="./file/jscex.min.js"></script>
-		<script type="text/javascript" src="./file/jscex-parser.js"></script>
-		<script type="text/javascript" src="./file/jscex-jit.js"></script>
-		<script type="text/javascript" src="./file/jscex-builderbase.min.js"></script>
-		<script type="text/javascript" src="./file/jscex-async.min.js"></script>
-		<script type="text/javascript" src="./file/jscex-async-powerpack.min.js"></script>
-		<script type="text/javascript" src="./file/functions.js" charset="utf-8"></script>
-		<script type="text/javascript" src="./file/love.js" charset="utf-8"></script>
+		<title>Putul's Birthday - Shimul </title>	    
+        <link type="text/css" rel="stylesheet" href="./default.css">
+		<script type="text/javascript" src="./jquery.min.js"></script>
+		<script type="text/javascript" src="./jscex.min.js"></script>
+		<script type="text/javascript" src="./jscex-parser.js"></script>
+		<script type="text/javascript" src="./jscex-jit.js"></script>
+		<script type="text/javascript" src="./jscex-builderbase.min.js"></script>
+		<script type="text/javascript" src="./jscex-async.min.js"></script>
+		<script type="text/javascript" src="./jscex-async-powerpack.min.js"></script>
+		<script type="text/javascript" src="./functions.js" charset="utf-8"></script>
+		<script type="text/javascript" src="./love.js" charset="utf-8"></script>
         <script>
             function playAudio() {
                 var audio = document.getElementById("myAudio");
@@ -30,14 +31,12 @@
             <div id="wrap">
                 <div id="text">
                     <div id="code">
-                      <span class="say"> Happiest Birthday  </span><br>
+                      <span class="say"> Happiest Birthday Putul </span><br>
                       <span class="say">My Beautiful🫀 </span><br>             
                       <span class="say">I'LL GIVE YOU</span><br>
                       <span class="say">ALL THE LOVE🥰</span><br>
                       <span class="say">THAT ONE CAN💕</span><br>
-                      <span class="say">Your SHIMUL!😌</span><br>
-                      <span class="say">Aanyway,May your birthday be as wonderful as your smile😊🎈 </span><br>
-                      <span class="say">And wishing you all the happiness and love on your special day! 🌟</span><br>
+                      <span class="say">Your @Shimul🫶! </span><br>
                       <span class="say"><span class="space"></span></span> </font>
                           <br />
                           <br />
@@ -190,11 +189,11 @@
 
         var textAnimate = eval(Jscex.compile("async", function () {
 		    var together = new Date();
-		    together.setFullYear(2005, 9, 9); 		
-		    together.setHours(20);						
-		    together.setMinutes(0);					
-		    together.setSeconds(0);					
-		    together.setMilliseconds(2);			
+		    together.setFullYear(2005, 9,9 ); 			//时间年月日
+		    together.setHours(20);						//小时	
+		    together.setMinutes(0);					//分钟
+		    together.setSeconds(0);					//秒前一位
+		    together.setMilliseconds(2);				//秒第二位
 
 		    $("#code").show().typewriter();
             $("#clock-box").fadeIn(500);
